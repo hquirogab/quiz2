@@ -55,4 +55,6 @@ public abstract class Process {
     public void setLongitude(int longitude) {
         this.longitude = longitude;
     }
+    
+    public abstract Product produce();
 }

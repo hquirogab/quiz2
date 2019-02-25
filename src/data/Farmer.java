@@ -17,7 +17,7 @@ public class Farmer extends Process {
         this.productionType = productionType;
     }
     
-    public FarmProduct produce( Farmer origin){
+    public Product produce(Date date, String name, Farmer origin){
         FarmProduct farmProduct;
         farmProduct = new FarmProduct(productionType, origin);
         return farmProduct;
